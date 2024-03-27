@@ -58,10 +58,14 @@ def getRootProjectExtOrCoreProperty(name, firebaseCoreProject) {
 }
 
 dependencies {
+    // GITHUB DEPENDENCIES
+    implementation 'com.github.sagnik-sanyal:AndroidAwnCore:main-SNAPSHOT'
+    implementation 'com.github.sagnik-sanyal:AndroidAwnFcmCore:main-SNAPSHOT'
+    
 //    implementation project(':awn_core')
-    implementation 'me.carda:AndroidAwnCore:[0.9.3, 0.10.0)'
+    // implementation 'me.carda:AndroidAwnCore:[0.9.3, 0.10.0)'
 //    implementation project(':awn_fcm_core')
-    implementation 'me.carda:AndroidAwnFcmCore:[0.9.3, 0.10.0)'
+    // implementation 'me.carda:AndroidAwnFcmCore:[0.9.3, 0.10.0)'
 
     compileOnly project(':awesome_notifications')
 
